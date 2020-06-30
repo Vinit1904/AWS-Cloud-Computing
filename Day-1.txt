@@ -1,0 +1,62 @@
+1.What is Cloud Computing?
+->Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).
+
+
+2.Different type of Cloud?
+->The three main types of cloud computing include Infrastructure as a Service, Platform as a Service, and Software as a Service. Each type of cloud computing provides different levels of control, flexibility, and management so that you can select the right set of services for your needs.
+
+1)Infrastructure as a Service (IaaS)
+IaaS contains the basic building blocks for cloud IT. It typically provides access to networking features, computers (virtual or on dedicated hardware), and data storage space. IaaS gives you the highest level of flexibility and management control over your IT resources. It is most similar to the existing IT resources with which many IT departments and developers are familiar. 
+
+
+PaaS removes the need for you to manage underlying infrastructure (usually hardware and operating systems), and allows you to focus on the deployment and management of your applications. This helps you be more efficient as you don’t need to worry about resource procurement, capacity planning, software maintenance, patching, or any of the other undifferentiated heavy lifting involved in running your application. 
+
+3)Software as a Service (SaaS)
+SaaS provides you with a complete product that is run and managed by the service provider. In most cases, people referring to SaaS are referring to end-user applications (such as web-based email). With a SaaS offering, you don’t have to think about how the service is maintained or how the underlying infrastructure is managed. You only need to think about how you will use that particular software.
+
+
+
+
+3)Advatage and Disadvantage of cloud?
+	======Advantages==========
+-->	1)Trade capital expense for variable expense – Instead of having to invest heavily in data centers and servers before knowing how they will be used, users can only pay when computing resources are consumed, and only pay for how much is consumed.
+
+	2)Benefit from massive economies of scale – By using cloud computing, users can achieve a lower variable cost than they can get on their own. Because usage from hundreds of thousands of customers are aggregated in the cloud, providers can achieve higher economies of scale which translates into lower pay-as-you-go prices.
+
+	3)Stop guessing capacity – Eliminate guessing on infrastructure capacity needs. When making a capacity decision prior to deploying an application, users often end up either sitting on expensive idle resources or dealing with limited capacity. Users can access as much or as little as needed, and scale up and down as required with only a few minutes notice.
+
+	4)Increase speed and agility – In a cloud computing environment, new IT resources are only ever a click away, which means reducing the time it takes to make those resources available to developers from weeks to just minutes. This results in a dramatic increase in agility for the organization, since the cost and time it takes to experiment and develop is significantly lower.
+
+	5)Stop spending money on running and maintaining data centers – Cloud computing lets the focus be on customers, rather than on the heavy lifting of racking, stacking and powering servers 
+
+===============Disadvantages========
+
+1)Downtime: This may be one of the worst disadvantages of cloud computing. No cloud provider, even the very best, would claim immunity to service outages. Cloud computing systems are internet based, which means access is fully dependent on internet connection. And, like any hardware, cloud platforms themselves can fail for any one of a thousand reasons.
+
+2)vulnerability to attack: In cloud computing, every component is potentially accessible from the internet. Of course, nothing connected to the internet is perfectly secure, and even the best teams suffer severe attacks and security breaches. But since cloud computing is built as a public service, it’s easy to run before learning to walk. No one at AWS checks administration skills before granting an account: All it takes to get started is a valid credit card.
+
+3)Limited control and flexibility: To varying degrees – depending on the particular service – cloud users have limited control over the function and execution of their hosting infrastructure. Cloud provider end-user license agreements and management policies might impose limits on what customers can do with their deployments
+
+4)Cloud computing platform dependencies: Implicit dependency, also known as “vendor lock-in” is another of the disadvantages of cloud computing. Deep-rooted differences between vendor systems can sometimes make it impossible to migrate from one cloud platform to another. Not only can it be complex and expensive to reconfigure applications to meet the requirements of a new host, but migration could also expose data to additional security and privacy vulnerabilities.
+
+5)Cloud computing costs: Cloud computing – especially on a small scale and for short-term projects – can be pricey. Though it can allow a reduction in staff and hardware costs, the overall price tag could end up higher than expected. Until users are sure of what will work best, it’s a good idea for them to experiment with a variety of offerings
+
+
+
+5)What is ec2?
+->Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2’s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon’s proven computing environment.
+
+6)Advatages of EC2?
+->Reliable, Scalable, Infrastructure On Demand
+Increase or decrease capacity within minutes, not hours or days
+SLA commitment of 99.99% availability for each Amazon EC2 region. Each region consists of at least 3 availability zones
+The AWS Region/AZ model has been recognized by Gartner as the recommended approach for running enterprise applications that require high availability
+
+->Vast Breadth and Depth of Compute Services
+More workloads including SAP, HPC, Machine Learning, Windows, and many more run on AWS than on any other cloud
+275 instance types to help optimize the cost and performance of your workloads
+Available with choice of processor, storage and networking options, operating system, and purchase model
+
+->Security is our top priority
+Lockdown security model prohibits administrative access eliminating possibility of human error and tampering
+With the AWS Nitro System virtualization resources are offloaded to dedicated hardware and software minimizing the attack surface
